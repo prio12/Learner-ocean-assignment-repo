@@ -1,23 +1,49 @@
 
+/* -----------------------slider cover image brightness fixed -----------------------------------------------*/
+
 .slider-cover {
     filter: brightness(50%);
 }
 
-
-
-
-
-
+/*=================================== media queries start here===============================================*/
 
 @media only screen and (max-width:576px) {
     .carousel-item img {
         height: 80vh;
         object-fit: cover;
     }
+
+    .Registration-btn {
+        display: flex;
+        justify-content: center;
+      }
+        .Registration-heading {
+            text-align: center;
+        }
+       .elearning-info {
+        margin-top: 40px;
+       }
+}
+
+@media only screen and (min-width:577px) and (max-width:820px) {
+    .carousel-item img {
+        height: 100vh;
+        object-fit: cover;
+    }
+  .Registration-btn {
+    display: flex;
+    justify-content: center;
+  }
+    .Registration-heading {
+        text-align: center;
+    }
     
 }
 
-/* -----------------------slider cover image brightness fixed -----------------------------------------------*/
+/*=================================== media queries end here===============================================*/
+
+
+/* ======================================footer background color============================================ */
 
 footer {
     background-color: black;
